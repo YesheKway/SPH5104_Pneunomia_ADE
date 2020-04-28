@@ -17,3 +17,40 @@ This repository contains all the SQL code (Standard-SQL) for data extraction on 
 * Extract all patients started on broad-spectrum abx before first blood culture test was drawn
 
        4_StartedOnBroad.sql
+
+
+# Extract Information on the day were the blood culture was drawn 
+
+* Lab tets and vital measurements
+
+       LabOnCultureDay.sql
+       VitalsOnCultureDay.sql
+
+* Ventilation Information
+       
+       2.0_Ventilated_BoodCultureDay.sql
+
+# Comorbidities 
+* Comorbidities are extracted based on Enhanced ICD-9-CM
+       
+       Comorbidities.sql
+
+# Translated code from MIMIC Code Repository (https://github.com/MIT-LCP/mimic-code) from PostgreSQL into StandardSQL 
+* FirstDay 
+
+        Firstday_BloodGas.sql 
+        Firstday_BloodGasAterial.sql
+        Firstday_GCS.sql
+        Firstday_UrineOutput.sql
+        
+* Elixhauser Comorbidities
+
+        2.0_ElixhauserComorbidities_ICD9.sql
+        2.1_ElixhauserScore.sql
+        
+* Ventilation Information 
+
+       1.0_Ventsettings.sql
+       1.1_VentilationDuration.sql
+        
+
