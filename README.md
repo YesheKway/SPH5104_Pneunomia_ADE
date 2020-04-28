@@ -35,7 +35,7 @@ This repository contains all the SQL code (Standard-SQL) for data extraction on 
        
        Comorbidities.sql
 
-# Translated code from MIMIC Code Repository (https://github.com/MIT-LCP/mimic-code) from PostgreSQL into StandardSQL 
+# Adopted code from MIMIC Code Repository (https://github.com/MIT-LCP/mimic-code), translated from PostgreSQL into StandardSQL 
 * FirstDay 
 
         Firstday_BloodGas.sql 
