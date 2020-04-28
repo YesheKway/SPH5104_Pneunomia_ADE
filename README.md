@@ -6,7 +6,14 @@ This repository contains all the SQL code (Standard-SQL) for data extraction on 
 
        1_First_query.sql
 
-* select only patients with negative microbiology testing and at least on sample sent (This query additionally classifies patients based on microbiology findings into viral, bacterial, fungal or parasitic infection).
+* select only patients with negative microbiology testing and at least on sample sent (This query additionally classifies patients based on microbiology findings into viral, bacterial, fungal and parasitic infection).
 
       2_Second_query.sql
  
+* Extract patients antibiotic prescriptions and further classifiy all antibiotics into broad and narrow-spectrum abx.
+       
+       3_ABX_info.sql
+       
+* Extract all patients started on broad-spectrum abx before first blood culture test was drawn
+
+       4_StartedOnBroad.sql
