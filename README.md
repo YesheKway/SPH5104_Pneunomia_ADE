@@ -21,7 +21,7 @@ This repository contains all the SQL code (Standard-SQL) for data extraction on 
 
 # Extract Information on the day were the blood culture was drawn 
 
-* Lab tets and vital measurements
+* Laboratory tets and vital measurements
 
        LabOnCultureDay.sql
        VitalsOnCultureDay.sql
