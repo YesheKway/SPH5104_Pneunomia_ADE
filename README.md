@@ -31,7 +31,7 @@ This repository contains all the SQL code (Standard-SQL) for data extraction on 
        2.0_Ventilated_BoodCultureDay.sql
 
 # Comorbidities 
-* Comorbidities are extracted based on Enhanced ICD-9-CM
+* Comorbidities are extracted based on Enhanced ICD-9-CM code list 
        
        Comorbidities.sql
 
